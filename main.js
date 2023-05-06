@@ -3857,14 +3857,14 @@ var app = (function () {
         (n = w("div")),
           (r = w("a")),
           (r.innerHTML =
-            '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Apoya a los desarrolladores en Ko-Fi</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
+            '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Sígueme en mis redes sociales</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
           M(
             r,
             "class",
             "kofi-button py-2 px-3 rounded-lg items-center flex  svelte-1d3p4dy"
           ),
-          M(r, "href", "https://ko-fi.com/hachebedlc"),
-          M(r, "title", "Apoya a los desarrolladores en Ko-Fi"),
+          M(r, "href", "https://linktr.ee/rubendelaviuda"),
+          M(r, "title", "Sígueme en mis redes sociales"),
           M(
             n,
             "class",
@@ -4024,7 +4024,7 @@ var app = (function () {
     return (
       P(async function () {
         (async function () {
-          const e = await fetch("https://heardlesp.app/supporters.json");
+          const e = await fetch("");
           return await e.json();
         })().then((e) => {
           n(0, (r = e.supporters));
@@ -4245,13 +4245,12 @@ var app = (function () {
     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
     </svg>
-</span> \n                <span class="px-1">HeardlEsp?</span>
-<a target="_blank" class="flex items-center" href="https://twitter.com/Heardlesp">
-    Siguenos en Twitter!<div style="height: 24px; width: 24px; margin-right: 4px;">
+</span> \n                <span class="px-1">¡Sígueme en mis redes sociales!</span>
+    <div style="height: 24px; width: 24px; margin-right: 4px;">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24px" height="24px">
         <path fill="#03A9F4" d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"/>
     </svg>
-</div></a>
+</div>
 `),
             (C = x()),
             Q(O.$$.fragment),
@@ -4714,7 +4713,7 @@ var app = (function () {
               t += "⬜️";
             }
           }
-          let o = e + "\n\n" + t + "\n\nhttps://heardleton.blogspot.com/";
+          let o = e + "\n\n" + t + "\n\nhttps://rubendelaviuda.github.io/heardleton.github.io/";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
