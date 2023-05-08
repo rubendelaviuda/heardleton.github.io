@@ -1351,3 +1351,7 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 .h-3.w-full.relative.overflow-hidden {
     background-color: var(--color-bg);
 }
+
+.tracking-widest {
+    text-indent: 0px
+}
