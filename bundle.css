@@ -1321,3 +1321,7 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
         transform: rotate(0) scale(1)
     }
 }
+
+.bg-custom-bg.border.border-custom-mg.p-6 {
+    border-radius: 0.5rem;
+}
