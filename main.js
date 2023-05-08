@@ -9128,6 +9128,13 @@ var app = (function () {
       "Tiago PZK - Nos Comemos (ft. Ozuna)",
       "Feid - Si Te La Encuentras Por Ahi",
       "Bandido - No Me Conocen (ft. Duki, Rey y Tiago PZK)",
+      "Daddy Yankee - La Despedida",
+      "Polima Westcoast - Ultra Solo (ft. Pailita)",
+      "Funzo & Baby Loud - Y Cuando Pienso en Ti",
+      "Nicky Jam - Travesuras",
+      "Tiago PZK - Nos Comemos (ft. Ozuna)",
+      "Feid - Si Te La Encuentras Por Ahi",
+      "Bandido - No Me Conocen (ft. Duki, Rey y Tiago PZK)",
       "Feid - Fumeteo",
       "Nio Garcia - AM Remix (ft. J Balvin y Bad Bunny)",
       "Daddy Yankee - Gasolina",
@@ -9518,6 +9525,35 @@ var app = (function () {
     On = {
       subscribe: ue(
         [
+          {
+            // 26 Noviembre
+            url: "https://soundcloud.com/daddy-yankee-official/la-despedida",
+            answer: "Daddy Yankee - La Despedida",
+          },
+          {
+            answer: "Polima Westcoast - Ultra Solo (ft. Pailita)",
+            url: "https://soundcloud.com/polimawestcoast/ultra-solo",
+          },
+          {
+            answer: "Funzo & Baby Loud - Y Cuando Pienso en Ti",
+            url: "https://soundcloud.com/funzobabyloud-music/y-cuando-pienso-en-ti",
+          },
+          {
+            answer: "Nicky Jam - Travesuras",
+            url: "https://soundcloud.com/nickyjamcol/travesuras-1",
+          },
+          {
+            answer: "Tiago PZK - Nos Comemos (ft. Ozuna)",
+            url: "https://soundcloud.com/tiagopzk-sc/nos-comemos",
+          },
+          {
+            answer: "Feid - Si Te La Encuentras Por Ahi",
+            url: "https://soundcloud.com/feid_oficial/si-te-la-encuentras-por-ahi",
+          },
+          {
+            answer: "Bandido - No Me Conocen (ft. Duki, Rey y Tiago PZK)",
+            url: "https://soundcloud.com/bandidoofficial/no-me-conocen-remix-feat-tiago",
+          },
           {
             // 26 Noviembre
             url: "https://soundcloud.com/daddy-yankee-official/la-despedida",
