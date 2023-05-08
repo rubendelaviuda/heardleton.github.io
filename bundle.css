@@ -678,7 +678,7 @@ video {
 }
 
 .rounded-sm {
-    border-radius: 0.125rem
+    border-radius: 0.5rem
 }
 
 .rounded-lg {
@@ -1082,7 +1082,7 @@ a:active {
 }
 
 .autoComplete_wrapper[aria-expanded="true"] #autoComplete {
-    border-radius: 0 0 4px 4px
+    border-radius: 0.5rem
 }
 
 input[type="textfield"] {
@@ -1095,7 +1095,7 @@ input[type="textfield"] {
 }
 
 #autoComplete_list_1 {
-    border-radius: 4px 4px 0 0
+    border-radius: 0.5rem
 }
 
 .modal-background.svelte-1nyqrwd {
