@@ -3857,7 +3857,7 @@ var app = (function () {
         (n = w("div")),
           (r = w("a")),
           (r.innerHTML =
-            '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Sígueme en mis redes sociales</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
+            '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>¿Te gusta este juego?</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
           M(
             r,
             "class",
@@ -4100,7 +4100,7 @@ var app = (function () {
       attemptInterval: 1.5e3,
       attemptIntervalAlt: [1e3, 2e3, 4e3, 7e3, 11e3, 16e3],
       maxAttempts: 6,
-      startDate: "2022-11-25",
+      startDate: "2023-05-01",
     },
     Jt = [
       "¿Seguro que te gusta el Reggaetón?", // FAILED
@@ -4689,7 +4689,7 @@ var app = (function () {
         c,
         () => {
           console.log(s);
-          let e = "HeardleTón #" + (s.id + 244),
+          let e = "HeardleTón #" + (s.id - 6),
             t = "";
           a
             ? r.length < i.maxAttempts / 3
@@ -9522,7 +9522,6 @@ var app = (function () {
             // 26 Noviembre
             url: "https://soundcloud.com/daddy-yankee-official/la-despedida",
             answer: "Daddy Yankee - La Despedida",
-            timeout: 1000,
           },
           {
             answer: "Polima Westcoast - Ultra Solo (ft. Pailita)",
@@ -9531,12 +9530,10 @@ var app = (function () {
           {
             answer: "Funzo & Baby Loud - Y Cuando Pienso en Ti",
             url: "https://soundcloud.com/funzobabyloud-music/y-cuando-pienso-en-ti",
-            timeout: 500,
           },
           {
             answer: "Nicky Jam - Travesuras",
             url: "https://soundcloud.com/nickyjamcol/travesuras-1",
-            timeout: 1000,
           },
           {
             answer: "Tiago PZK - Nos Comemos (ft. Ozuna)",
@@ -9593,12 +9590,10 @@ var app = (function () {
           {
             url: "https://soundcloud.com/rvssianofficial/ponle",
             answer: "Rvssian - Ponle (ft. Farruko, J Balvin)",
-            timeout: 15000,
           },
           {
             answer: "Feid - Niña Bonita (ft. Sean Paul)",
             url: "https://soundcloud.com/feid_oficial/nina-bonita",
-            timeout: 2300,
           },
           {
             url: "https://soundcloud.com/iambeckyg/mayores-feat-bad-bunny",
@@ -9607,17 +9602,14 @@ var app = (function () {
           {
             url: "https://soundcloud.com/musicurbana/anuel-aa-hipocrita-ft-zion",
             answer: "Anuel AA - Hipocrita (ft. Zion)",
-            timeout: 2500,
           },
           {
             url: "https://soundcloud.com/nickyjamcol/hasta-el-amanecer",
             answer: "Nicky Jam - Hasta El Amanecer",
-            timeout: 2700,
           },
           {
             answer: "Feid - Pantysito (ft. Alejo y Robi)",
             url: "https://soundcloud.com/feid_oficial/pantysito",
-            timeout: 1200,
           },
           {
             url: "https://soundcloud.com/fmkmusic/prende-la-camara",
@@ -9715,7 +9707,6 @@ var app = (function () {
           },
           {
             answer: "Nio Garcia - Travesuras Remix (ft. Casper Magico, Ozuna, Myke Towes, Wisin y Yandel)",
-            timeout: 1500,
             url: "https://soundcloud.com/geromusik/nio-garcia-casper-magico-ozuna",
           },
           {
@@ -9773,7 +9764,6 @@ var app = (function () {
           {
             answer: "Ozuna - Una Locura (ft. J Balvin y Chencho Corleone)",
             url: "https://soundcloud.com/ozunapr/ozuna-j-balvin-chencho",
-            timeout: 2250,
           },
           {
             url: "https://soundcloud.com/superyei-music/la-forma-en-que-me-miras-feat",
@@ -9782,7 +9772,6 @@ var app = (function () {
           {
             answer: "Maria Becerra - Automatico",
             url: "https://soundcloud.com/mariabecerra/automatico",
-            timeout: 3500,
           },
           {
             answer: "Feid - Ferxxo 100",
@@ -9800,12 +9789,10 @@ var app = (function () {
           {
             answer: "Polima Westcoast - Ultra Solo Remix (ft. Pailita, Paloma Mami, Feid y De La Ghetto)",
             url: "https://soundcloud.com/polimawestcoast/ultra-solo-remix-feat-paloma",
-            timeout: 3000,
           },
           {
             answer: "Jhayco - Ley Seca (ft. Anuel AA)",
             url: "https://soundcloud.com/jhaycortez/ley-seca",
-            timeout: 12000,
           },
           {
             answer: "Bad Bunny - Pa' Romperla (ft. Don Omar)",
@@ -9875,7 +9862,6 @@ var app = (function () {
           {
             answer: "Elilluminari - Melocoton",
             url: "https://soundcloud.com/elilluminari/melocoton",
-            timeout: 4000,
           },
           {
             answer: "Paulo Londra - Tal Vez",
@@ -9940,7 +9926,6 @@ var app = (function () {
           {
             answer: "Ryan Castro - Monastery (ft. Feid)",
             url: "https://soundcloud.com/ryancastro36579/monastery",
-            timeout: 2000,
           },
           {
             answer: "Anuel AA - Keii",
@@ -9953,12 +9938,10 @@ var app = (function () {
           {
             answer: "Luis Fonsi - Imposible (ft. Ozuna)",
             url: "https://soundcloud.com/luisfonsiofficial/imposible",
-            timeout: 1000,
           },
           {
             url: "https://soundcloud.com/jaywheelerpr/jay-x-myke-x-becky-g-la-curiosidad-red-grand-prix-remix-ft-arcangel-zion-lennox-dlg-brray",
             answer: "Jay Wheeler - La Curiosidad Remix Red (ft. Myke Towers, Becky G, Arcangel, De La Ghetto, Zion & Lennox y Brray)",
-            timeout: 3000,
           },
           {
             answer: "Feid - Feliz Cumpleaños Ferxxo",
@@ -9976,7 +9959,6 @@ var app = (function () {
             answer:
               "Rauw Alejandro - Fantasias (ft. Farruko)",
             url: "https://soundcloud.com/rauwalejandro/fantasias",
-            timeout: 3000,
           },
           {
             answer: "Major Lazer - Que Calor (ft. J Balvin, El Alfa)",
@@ -9989,7 +9971,6 @@ var app = (function () {
           {
             answer: "Aissa - Las Bratz (ft. Saiko, JC Reyes, El Bobe, Juseph y Nickzzy)",
             url: "https://soundcloud.com/aissa-sc/las-bratz-remix-feat-nickzzy",
-            timeout: 3750,
           },
           {
             answer: "Anuel AA - Adicto (ft. Ozuna y Tainy)",
@@ -10002,7 +9983,6 @@ var app = (function () {
           {
             answer: "Feid - Classy 101 (ft. Young Miko)",
             url: "https://soundcloud.com/feid_oficial/classy-101",
-            timeout: 1200,
           },
           {
             answer: "Karol G - TQG (ft. Shakira)",
@@ -10011,7 +9991,6 @@ var app = (function () {
           {
             url: "https://soundcloud.com/ozunapr/se-preparo",
             answer: "Ozuna - Se Preparo",
-            timeout: 1000,
           },
           {
             answer: "Paulo Londra - A Veces (ft. Feid)",
@@ -10036,12 +10015,10 @@ var app = (function () {
           {
             answer: "Daddy Yankee - X Ultima Vez (ft. Bad Bunny)",
             url: "https://soundcloud.com/daddy-yankee-official/daddy-yankee-bad-bunny-x",
-            timeout: 2000,
           },
           {
             answer: "Rosalia - Con Altura (ft. J Balvin y El Guincho)",
             url: "https://soundcloud.com/rosaliaofficial/con-altura-feat-el-guincho",
-            timeout: 950,
           },
           {
             answer: "Daddy Yankee - Donde Estan Las Gatas (ft. Nicky Jam)",
@@ -10054,7 +10031,6 @@ var app = (function () {
           {
             answer: "Daddy Yankee - Adictiva (ft. Anuel AA)",
             url: "https://soundcloud.com/daddy-yankee-official/adictiva",
-            timeout: 1000,
           },
           {
             answer: "Rauw Alejandro - Curame",
@@ -10075,7 +10051,6 @@ var app = (function () {
           {
             url: "https://soundcloud.com/malumaofficial/hawai",
             answer: "Maluma - Hawai",
-            timeout: 2000,
           },
           {
             answer: "Quevedo - Wanda",
@@ -10088,7 +10063,6 @@ var app = (function () {
           {
             answer: "FMK - Prende La Camara Remix (ft. Tiago PZK y Mau & Ricky)",
             url: "https://soundcloud.com/fmkmusic/prende-la-camara-rmx",
-            timeout: 2500,
           },
           {
             answer: "Luis Fonsi - Despacito (ft. Daddy Yankee)",
@@ -10125,7 +10099,6 @@ var app = (function () {
           {
             url: "https://soundcloud.com/rauwalejandro/rauw-alejandro-mr-naisgai-2",
             answer: "Rauw Alejandro - 2/Catorce (ft. Mr. Naisgai)",
-            timeout: 500,
           },
           {
             answer: "Bad Bunny - Me Porto Bonito (ft. Chencho Corleone)",
@@ -10134,12 +10107,10 @@ var app = (function () {
           {
             url: "https://soundcloud.com/j-balvin-official/gris",
             answer: "J Balvin - Gris",
-            timeout: 800,
           },
           {
             url: "https://soundcloud.com/daddy-yankee-official/daddy-yankee-llamado-de",
             answer: "Daddy Yankee - Llamado De Emergencia",
-            timeout: 1800,
           },
           {
             url: "https://soundcloud.com/livemusicnation/watussi-ft-jowell-y-randy-y",
@@ -10184,12 +10155,10 @@ var app = (function () {
           {
             answer: "Daddy Yankee - La Rompe Corazones (ft. Ozuna)",
             url: "https://soundcloud.com/daddy-yankee-official/la-rompe-corazones",
-            timeout: 2300,
           },
           {
             answer: "Lunay - Soltera",
             url: "https://soundcloud.com/lunaypr/soltera",
-            timeout: 1000,
           },
           {
             url: "https://soundcloud.com/barderos21/interestelar-1",
@@ -10231,7 +10200,6 @@ var app = (function () {
           {
             answer: "Maluma - Felices Los 4",
             url: "https://soundcloud.com/malumaofficial/felices-los-4",
-            timeout: 500,
           },
           {
             answer: "Ozuna - Tu Foto",
@@ -10240,7 +10208,6 @@ var app = (function () {
           {
             url: "https://soundcloud.com/anuel2blea/anuel-aa-ozuna-antes",
             answer: "Anuel AA - Antes (ft. Ozuna)",
-            timeout: 1000,
           },
           {
             url: "https://soundcloud.com/donomarpr/guaya-guaya",
@@ -10261,7 +10228,6 @@ var app = (function () {
           {
             url: "https://soundcloud.com/lunaypr/la-cama",
             answer: "Lunay - La Cama (ft. Myke Towers)",
-            timeout: 1900,
           },
           {
             answer: "Bad Bunny - La Zona",
@@ -10278,7 +10244,6 @@ var app = (function () {
           {
             answer: "J Balvin - Arcoiris",
             url: "https://soundcloud.com/j-balvin-official/arcoiris",
-            timeout: 700,
           },
           {
             answer: "Lola Indigo - La Niña De La Escuela (ft. Tini y Belinda)",
@@ -10287,7 +10252,6 @@ var app = (function () {
           {
             answer: "Manuel Turizo - La Nota (ft. Rauw Alejandro y Myke Towers)",
             url: "https://soundcloud.com/manuelturizo/la-nota",
-            timeout: 2000,
           },
           {
             answer: "Nicky Jam - En La Cama (ft. Daddy Yankee)",
@@ -10300,17 +10264,14 @@ var app = (function () {
           {
             answer: "Daddy Yankee - Dura",
             url: "https://soundcloud.com/daddy-yankee-official/dura",
-            timeout: 500,
           },
           {
             answer: "Tekashi 69 - Bebe (ft. Anuel AA)",
             url: "https://soundcloud.com/scumgang6ix9ine/bebe-ft-anuel-aa",
-            timeout: 2750,
           },
           {
             url: "https://soundcloud.com/funzobabyloud/d-nde-te-espero",
             answer: "Funzo & Baby Loud - Donde Te Espero",
-            timeout: 11000,
           },
           {
             answer: "Jhayco - En La De Ella (ft. Sech y Feid)",
@@ -10343,7 +10304,6 @@ var app = (function () {
           {
             answer: "Darell - Otro Trago (ft. Darell)",
             url: "https://soundcloud.com/sech-music/otro-trago-feat-darell",
-            timeout: 3000,
           },
           {
             answer: "Tiago PZK - Traductor (ft. Myke Towers)",
@@ -10412,7 +10372,6 @@ var app = (function () {
           {
             answer: "Ivy Queen - Yo Quiero Bailar",
             url: "https://soundcloud.com/ivy-queen-official/yo-quiero-bailar",
-            timeout: 2000,
           },
           {
             url: "https://soundcloud.com/badbunny15/bad-bunny-nicky-jam-bad-con",
@@ -10421,12 +10380,10 @@ var app = (function () {
           {
             answer: "Enrique Iglesias - Bailando (ft. Descemer Bueno y Gente De Zona)",
             url: "https://soundcloud.com/enriqueiglesias/bailando-spanish-version",
-            timeout: 2000,
           },
           {
             answer: "Jhayco - Imaginaste",
             url: "https://soundcloud.com/jhaycortez/imaginaste",
-            timeout: 8000,
           },
           {
             answer: "J Balvin - Ay Vamos",
@@ -10447,7 +10404,6 @@ var app = (function () {
           {
             answer: "Duki - Bici (ft. Juanka, Juhn y AK420)",
             url: "https://soundcloud.com/dukissj/bici-feat-juanka",
-            timeout: 500,
           },
           {
             answer: "Guaynaa - Rebota",
@@ -10456,7 +10412,6 @@ var app = (function () {
           {
             answer: "Becky G - Mamiii (ft. Karol G)",
             url: "https://soundcloud.com/iambeckyg/becky-g-feat-karol-g-mamiii",
-            timeout: 14000,
           },
           {
             url: "https://soundcloud.com/manuelturizo/te-quemaste",
@@ -10465,7 +10420,6 @@ var app = (function () {
           {
             answer: "Abraham Mateo - Loco Enamorado (ft. Farruko y Christian Daniel)",
             url: "https://soundcloud.com/abraham-mateo-official/loco-enamorado",
-            timeout: 500,
           },
           {
             answer: "Rauw Alejandro - Chencho Corleone (ft. El Efecto)",
@@ -10495,7 +10449,6 @@ var app = (function () {
           {
             answer: "Bad Gyal - Blin Blin (ft. Juanka)",
             url: "https://soundcloud.com/badgyalsc/blin-blin",
-            timeout: 3000,
           },
           {
             url: "https://soundcloud.com/rosaliaofficial/beso",
@@ -10512,7 +10465,6 @@ var app = (function () {
           {
             answer: "Enrique Iglesias - El Baño (ft. Bad Bunny)",
             url: "https://soundcloud.com/enriqueiglesias/el-bano-feat-bad-bunny",
-            timeout: 600,
           },
           {
             answer: "La Mafia Del Amor - Ya Noi",
@@ -10549,7 +10501,6 @@ var app = (function () {
           {
             answer: "Daddy Yankee - Rompe",
             url: "https://soundcloud.com/daddy-yankee-official/rompe",
-            timeout: 4200,
           },
           {
             answer: "Karol G - Mi Cama",
@@ -10562,7 +10513,6 @@ var app = (function () {
           {
             answer: "Wisin - Vacaciones",
             url: "https://soundcloud.com/wisin-official/vacaciones",
-            timeout: 3500,
           },
           {
             answer: "Bad Bunny - Dakiti (ft. Jhayco)",
@@ -10580,12 +10530,10 @@ var app = (function () {
           {
             answer: "La Mafia Del Amor - Xapiadora",
             url: "https://soundcloud.com/lamafiadelamor/xapiadora",
-            timeout: 3000,
           },
           {
             answer: "Rauw Alejandro - Reloj (ft. Anuel AA)",
             url: "https://soundcloud.com/rauwalejandro/rauw-alejandro-anuel-aa-reloj",
-            timeout: 12000,
           },
           {
             answer: "Bad Bunny - Yonaguni",
@@ -10654,7 +10602,6 @@ var app = (function () {
           {
             answer: "Daddy Yankee - Con Calma (ft. Snow)",
             url: "https://soundcloud.com/daddy-yankee-official/con-calma-feat-snow",
-            timeout: 4000,
           },
           {
             answer: "Wisin & Yandel - Besos Moja2 (ft. Rosalia)",
@@ -10719,7 +10666,6 @@ var app = (function () {
           {
             answer: "Ozuna - Un Bellakeo (ft. Alexio, Pusho y Juanka)",
             url: "https://soundcloud.com/keyneralx/un-bellakeo-ozuna-ft-alexio-pusho-juanka-el-problematik",
-            timeout: 2000,
           },
           {
             answer: "Yandel - Yandel 150 (ft. Feid)",
@@ -10732,12 +10678,10 @@ var app = (function () {
           {
             answer: "Jhayco - Easy Remix (ft. Ozuna)",
             url: "https://soundcloud.com/jhaycortez/easy-remix",
-            timeout: 1000,
           },
           {
             url: "https://soundcloud.com/lamafiadelamor/multiorgasmica",
             answer: "La Mafia Del Amor - Multiorgasmica",
-            timeout: 3000,
           },
           {
             answer: "Karol G - Ay Dios Mio",
@@ -10755,7 +10699,6 @@ var app = (function () {
             answer:
               "Jhayco - Easy",
             url: "https://soundcloud.com/jhaycortez/easy",
-            timeout: 3000,
           },
           {
             answer: "Jhayco - Fiel (ft. Wisin)",
@@ -10768,7 +10711,6 @@ var app = (function () {
           {
             answer: "Ozuna - Unica",
             url: "https://soundcloud.com/ozunapr/unica",
-            timeout: 3750,
           },
           {
             answer: "Paulo Londra - Por Eso Vine",
@@ -10781,7 +10723,6 @@ var app = (function () {
           {
             answer: "Nio Garcia - Mirame (ft. Rauw Alejandro y Lenny Tavarez)",
             url: "https://soundcloud.com/geromusik/nio-garcia-rauw-alejandro-1",
-            timeout: 1200,
           },
           {
             answer: "Omar Montes - Beba Que Quieres Que Haga (ft. JC El Diamante)",
@@ -10790,7 +10731,6 @@ var app = (function () {
           {
             url: "https://soundcloud.com/rauwalejandro/rauw-alejandro-chencho-2",
             answer: "Rauw Alejandro - Desesperados (ft. Chencho Corleone)",
-            timeout: 1000,
           },
           {
             answer: "Bad Bunny - La Dificil",
@@ -10815,12 +10755,10 @@ var app = (function () {
           {
             answer: "Bad Bunny - Solo De Mi",
             url: "https://soundcloud.com/badbunny15/bad-bunny-solo-de-mi",
-            timeout: 2000,
           },
           {
             answer: "Nio Garcia - Travesuras (ft. Casper Magico)",
             url: "https://soundcloud.com/caspermagico/nio-garcia-casper-magico-3",
-            timeout: 950,
           },
           {
             answer: "Feid - Chorrito Pa Las Animas",
@@ -10833,7 +10771,6 @@ var app = (function () {
           {
             answer: "J Balvin - Rosa",
             url: "https://soundcloud.com/j-balvin-official/rosa",
-            timeout: 1000,
           },
           {
             answer: "Bad Bunny - Tarot (ft. Jhayco)",
@@ -10854,7 +10791,6 @@ var app = (function () {
           {
             url: "https://soundcloud.com/oficial-anitta/anitta-envolver",
             answer: "Anitta - Envolver",
-            timeout: 2000,
           },
           {
             answer: "Plan B - Fanatica Sensual Remix (ft. Nicky Jam)",
@@ -10867,7 +10803,6 @@ var app = (function () {
           {
             answer: "Khea - Donde Estas Remix (ft. Piso 21)",
             url: "https://soundcloud.com/khea-sc/donde-estas-with-piso-21-remix",
-            timeout: 2500,
           },
           {
             answer: "Bad Bunny - Una Vez (ft. Mora)",
@@ -10904,7 +10839,6 @@ var app = (function () {
           {
             url: "https://soundcloud.com/ozunapr/ozuna-karol-g-myke-towers",
             answer: "Ozuna - Caramelo Remix (ft. Karol G y Myke Towers)",
-            timeout: 500,
           },
           {
             answer: "Nacho - Cristina (ft. Shelow Shaq, Justin Quiles y Maffio)",
@@ -10913,12 +10847,10 @@ var app = (function () {
           {
             url: "https://soundcloud.com/jhaycortez/como-se-siente",
             answer: "Jhayco - Como Se Siente",
-            timeout: 800,
           },
           {
             url: "https://soundcloud.com/sech-music/911-1",
             answer: "Sech - 911",
-            timeout: 1800,
           },
           {
             url: "https://soundcloud.com/ozunapr/ozuna-daddy-yankee-j-balvin",
@@ -10963,12 +10895,10 @@ var app = (function () {
           {
             answer: "Rauw Alejandro - Dile A El",
             url: "https://soundcloud.com/rauwalejandro/rauw-alejandro-dile-a-el",
-            timeout: 2300,
           },
           {
             answer: "Lunay - Aventura (ft. Anuel AA y Ozuna)",
             url: "https://soundcloud.com/lunaypr/aventura",
-            timeout: 1000,
           },
           {
             url: "https://soundcloud.com/rauwalejandro/rauw-alejandro-lyanno-brray",
@@ -11006,7 +10936,6 @@ var app = (function () {
           {
             answer: "CNCO - Hey DJ (ft. Yandel)",
             url: "https://soundcloud.com/cnco/hey-dj-1",
-            timeout: 500,
           },
           {
             answer: "Robledo - Dime Bbsita",
@@ -11015,7 +10944,6 @@ var app = (function () {
           {
             url: "https://soundcloud.com/j-balvin-official/negro",
             answer: "J Balvin - Negro",
-            timeout: 1000,
           },
           {
             url: "https://soundcloud.com/romeo-santos/bella-y-sensual-feat-nicky-jam",
@@ -11032,7 +10960,6 @@ var app = (function () {
           {
             url: "https://soundcloud.com/filipe16616/angel-y-khriz-ven-bailalo",
             answer: "Angel & Khriz - Ven Bailalo",
-            timeout: 1900,
           },
           {
             answer: "Hector El Father - Esta Noche De Travesuras",
@@ -11049,7 +10976,6 @@ var app = (function () {
           {
             answer: "Zion - Zun Da Da",
             url: "https://soundcloud.com/zion-95060/zun-da-da",
-            timeout: 700,
           },
           {
             answer: "Guaynaa - Rebota Remix (ft. Becky G, Sech, Farruko y Nicky Jam)",
@@ -11058,7 +10984,6 @@ var app = (function () {
           {
             answer: "Wisin & Yandel - Rakata",
             url: "https://soundcloud.com/wisin-yandel-official/rakata-album-version",
-            timeout: 2000,
           },
           {
             answer: "Ozuna - Siguelo Bailando",
@@ -11071,17 +10996,14 @@ var app = (function () {
           {
             answer: "Piso 21 - Te Amo (ft. Paulo Londra)",
             url: "https://soundcloud.com/piso21official/te-amo",
-            timeout: 500,
           },
           {
             answer: "Robledo - Interesa",
             url: "https://soundcloud.com/robledo-sc/interes",
-            timeout: 2750,
           },
           {
             url: "https://soundcloud.com/cnco/reggaeton-lento-bailemos",
             answer: "CNCO - Reggaeton Lento",
-            timeout: 11000,
           },
           {
             answer: "Luis Fonsi - Date La Vuelta (ft. Nicky Jam)",
@@ -11110,7 +11032,6 @@ var app = (function () {
           {
             answer: "Ozuna - Dime Que Tu Me Quieres",
             url: "https://soundcloud.com/ozunapr/dile-que-tu-me-quieres",
-            timeout: 3000,
           },
           {
             answer: "Kevvo - 105 F",
