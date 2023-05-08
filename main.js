@@ -1576,7 +1576,7 @@ var app = (function () {
           Q(n.$$.fragment),
             (r = x()),
             (s = w("p")),
-            (s.textContent = "loading player");
+            (s.textContent = "Cargando...");
         },
         m(e, t) {
           ee(n, e, t), g(e, r, t), g(e, s, t), (i = !0);
@@ -1613,7 +1613,7 @@ var app = (function () {
         c() {
           (t = w("p")),
             (t.textContent =
-              "There was an error loading the player. Please reload and try\n                again."),
+              "Ha habido un error al cargar la página.\nPor favor, reinicia la página y vuelve a intentarlo."),
             (n = x()),
             (r = w("div")),
             Q(s.$$.fragment),
