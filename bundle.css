@@ -1331,3 +1331,7 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 .centrado {
     text-align: center
 }
+
+.p-2.flex.items-center.rounded-sm.bg-custom-positive .h-14.w-14 {
+    border-radius: 0.5em
+}
