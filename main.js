@@ -1437,7 +1437,7 @@ var app = (function () {
     return {
       c() {
         (n = w("div")),
-          (n.innerHTML = '<span class="loader svelte-57p3aa"></span>'),
+          (n.innerHTML = '<span class="loader svelte-57p3aaA"></span>'),
           M(n, "class", "flex justify-center m-3");
       },
       m(e, t) {
