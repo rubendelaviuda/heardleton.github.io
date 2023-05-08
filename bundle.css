@@ -702,10 +702,6 @@ video {
     border-width: 1px
 }
 
-.border-t {
-    border-top-width: 1px
-}
-
 .border-b {
     border-bottom-width: 1px
 }
@@ -1328,4 +1324,10 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 
 .p-2.mb-2.border.border-custom-mg {
     border-radius: 0.5rem;
+}
+
+h-3 w-full relative overflow-hidden {
+    border-color: var(--color-line);
+    border-width: 1px;
+    border-radius: 0.27em;
 }
