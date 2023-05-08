@@ -1326,8 +1326,12 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
     border-radius: 0.5rem;
 }
 
-.h-full.absolute.bg-custom-mg.overflow-hidden {
+.h-3.w-full.relative.overflow-hidden {
     border-color: var(--color-line);
     border-width: 1px;
     border-radius: 0.27em;
+}
+
+.centrado {
+    text-align: center
 }
