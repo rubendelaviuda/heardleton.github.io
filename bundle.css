@@ -702,10 +702,6 @@ video {
     border-width: 1px
 }
 
-.border-b {
-    border-bottom-width: 1px
-}
-
 .border-none {
     border-style: none
 }
@@ -1334,4 +1330,8 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 
 .centrado {
     text-align: center
+}
+
+.p-3.flex-col.items-evenly {
+    margin: auto 0;
 }
