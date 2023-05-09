@@ -1355,3 +1355,11 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 .tracking-widest {
     text-indent: 0px
 }
+
+.flex.justify-evenly.text-custom-fgcolor.p-3.items-center {
+    padding-top: 1.25rem
+}
+
+.m-3.mt-0 {
+    margin-bottom: 1.8rem;
+}
