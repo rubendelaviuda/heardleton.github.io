@@ -1361,7 +1361,11 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 }
 
 .flex.justify-between.items-center {
-    margin: 0.2rem 0px;
+    margin-top: 0.2rem;
+}
+
+.m-3.mt-0 {
+    margin-top: 0.2rem;
 }
 
 .font-serif.text-3xl.font-bold.flex-grow.text-center.flex-1 {
