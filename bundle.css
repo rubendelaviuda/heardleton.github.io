@@ -742,7 +742,7 @@ video {
 }
 
 .bg-custom-mg {
-    background-color: var(--color-mg)
+    background-color: transparent;
 }
 
 .bg-custom-line {
@@ -1378,4 +1378,8 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 
 .bg-custom-bg.text-custom-fg.overflow-auto.flex.flex-col {
     padding-bottom: 1.05rem;
+}
+
+.h-full.absolute.text-center.w-full.py-1.text-xs.bg-custom-negative {
+    border-radius: 0.5em;
 }
