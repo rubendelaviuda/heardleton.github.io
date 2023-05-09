@@ -1365,7 +1365,7 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 }
 
 .m-3.mt-0 {
-    margin-top: 0.2rem;
+    margin-top: 0.4rem;
 }
 
 .font-serif.text-3xl.font-bold.flex-grow.text-center.flex-1 {
@@ -1377,5 +1377,5 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 }
 
 .bg-custom-bg.text-custom-fg.overflow-auto.flex.flex-col {
-    padding-bottom: 1.8rem;
+    padding-bottom: 1.05rem;
 }
