@@ -1363,3 +1363,15 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 .m-3.mt-0 {
     margin-bottom: 1.8rem;
 }
+
+.flex.justify-between.items-center {
+    margin: 0.2rem 0px;
+}
+
+.font-serif.text-3xl.font-bold.flex-grow.text-center.flex-1 {
+    user-select: none;
+}
+
+.border-t.border-custom-line {
+    user-select: none;
+}
