@@ -1360,10 +1360,6 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
     padding-top: 1.25rem
 }
 
-.m-3.mt-0 {
-    margin-bottom: 1.8rem;
-}
-
 .flex.justify-between.items-center {
     margin: 0.2rem 0px;
 }
@@ -1374,4 +1370,8 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 
 .border-t.border-custom-line {
     user-select: none;
+}
+
+.bg-custom-bg.text-custom-fg.overflow-auto.flex.flex-col {
+    padding-bottom: 1.8rem;
 }
