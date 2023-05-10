@@ -1339,6 +1339,10 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
     border-radius: 0.5em
 }
 
+.p-2.flex.items-center.rounded-sm.bg-custom-mg .h-14.w-14 {
+    border-radius: 0.5em;
+}
+
 .px-2.py-2.uppercase.tracking-widest.border-none.flex.items-center.font-semibold.text-sm.svelte-1r54uzk.bg-custom-positive {
     padding: 0.5rem 1.1rem;
     #box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
@@ -1405,4 +1409,10 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 
 .flex.justify-center.items-center.text-custom-fg.h-14.w-14.border-2.rounded-full.relative.overflow-hidden {
     #box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
+}
+
+.bg-custom-highlight.py-3.pb-5.mx-3.rounded-t-md {
+    border-color: var(--color-mg);
+    border-width: 1px;
+    margin-bottom: 0.25rem;
 }
