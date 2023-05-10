@@ -887,7 +887,7 @@ video {
 }
 
 .tracking-widest {
-    letter-spacing: 0.1em
+    letter-spacing: 0.05em
 }
 
 .text-white {
@@ -1449,6 +1449,9 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
   p.text-sm {
     font-size: 10px;
   }
+  .bg-custom-highlight.py-3.pb-5.mx-3.rounded-t-md {
+    display: none;
+  }
 }
 
 @media (min-width: 279px) and (max-width: 342px) {
@@ -1465,4 +1468,11 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
     font-size: 10px;
   }
     
+}
+
+.kofitext.svelte-1d3p4dy {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.05em;
 }
