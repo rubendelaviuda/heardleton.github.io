@@ -1084,12 +1084,12 @@ input[type="textfield"] {
 #autoComplete {
     -webkit-appearance: none;
     background-image: none;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    #box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 #autoComplete_list_1 {
     border-radius: 0.5rem;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    #box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 .modal-background.svelte-1nyqrwd {
@@ -1318,7 +1318,7 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 
 .bg-custom-bg.border.border-custom-mg.p-6 {
     border-radius: 0.5rem;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
+    #box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
 }
 
 .p-2.mb-2.border.border-custom-mg {
@@ -1341,22 +1341,22 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 
 .px-2.py-2.uppercase.tracking-widest.border-none.flex.items-center.font-semibold.text-sm.svelte-1r54uzk.bg-custom-positive {
     padding: 0.5rem 1.1rem;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
+    #box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
 }
 
 .px-2.py-2.uppercase.tracking-widest.bg-custom-mg.border-none.flex.items-center.font-semibold.text-sm.svelte-1r54uzk {
     padding: 0.5rem 1.1rem;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
+    #box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
 }
 
 .kofi-button.py-2.px-3.rounded-lg.items-center.flex.svelte-1d3p4dy {
     padding: 0.5rem 1.1rem;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
+    #box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
 }
 
 .h-3.w-full.relative.overflow-hidden {
     background-color: var(--color-bg);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
+    #box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
 }
 
 .tracking-widest {
@@ -1400,9 +1400,9 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 }
 
 .p-2.mb-2.border.border-custom-mg.flex.items-center.last\:mb-0 {
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
+    #box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
 }
 
 .flex.justify-center.items-center.text-custom-fg.h-14.w-14.border-2.rounded-full.relative.overflow-hidden {
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
+    #box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
 }
