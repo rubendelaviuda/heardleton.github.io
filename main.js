@@ -4047,7 +4047,7 @@ var app = (function () {
       {
         c() {
           (n = w("p")),
-            (n.textContent =
+            (n.innerHTML =
               '<p class="mb-3">¡Gracias por jugar!</p><p class="mb-3">Si te ha gustado el juego considera seguirme en mis redes sociales.</p>'),
             (r = x()),
             (s = w("p")),
