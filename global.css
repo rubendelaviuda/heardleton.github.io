@@ -69,3 +69,7 @@ button:focus {
 .font-serif.text-3xl.font-bold.flex-grow.text-center.flex-1 {
     font-family: inherit;
 }
+
+.top-20 {
+    top: 4.5rem;
+}
