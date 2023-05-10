@@ -4778,7 +4778,7 @@ var app = (function () {
   }
 
   function gn(e) {
-    let t, n, r, s, i, o, a, l, u, c;
+    let t, n, r, s, i, o, a, l, u, c, z, y;
     return (
       (u = new ae({
         props: {
@@ -4797,20 +4797,25 @@ var app = (function () {
           (t = w("div")),
             (n = w("div")),
             (n.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Escucha unos segundos de una canción de Reggaetón elegida al azar.</p></div>'),
+              '<div class="mr-4 w-8 text-custom-line" style="margin-right: 1.05rem;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Escucha unos segundos de una canción de Reggaetón elegida al azar.</p></div>'),
             (r = x()),
             (s = w("div")),
             (s.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line">  <svg    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"class="h-6 w-6"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07" ></path>  </svg></div>\n<div>  <p> Adivina la canción de Reggaetón en el menor número de intentos.</p><p>Por cada intento fallido podrás escuchar más parte de la canción.</p><p>Pistas:</p><ul><li> <svg class="ml-0.5 text-custom-warning inline" xmlns="http://www.w3.org/2000/svg"      width="20"      height="20"      viewBox="0 0 24 24" fill="none" stroke="currentColor"      stroke-width="2"      stroke-linecap="round"      stroke-linejoin="round"    >      <line x1="18" y1="6" x2="6" y2="18"></line>      <line x1="6" y1="6" x2="18" y2="18"></line>    </svg>: Has acertado el artista. </li>    <li>    <svg      class="ml-0.5 text-custom-negative inline"      xmlns="http://www.w3.org/2000/svg"      width="20"      height="20"      viewBox="0 0 24 24"      fill="none"           stroke="currentColor"      stroke-width="2"      stroke-linecap="round"      stroke-linejoin="round"    >      <line x1="18" y1="6" x2="6" y2="18"></line>      <line x1="6" y1="6" x2="18" y2="18"></line>    </svg>: Has fallado, sigue intentándolo.  </p>  </li> <li>    <svg xmlns="http://www.w3.org/2000/svg" class="ml-0.5 text-custom-mg inline" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">      <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>    </svg>: Has saltado el intento.  </p>  </li>    </ul></div>'),
+              '<div class="mr-4 w-8 text-custom-line" style="margin-right: 1.3rem;">  <svg    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"class="h-6 w-6"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07" ></path>  </svg></div>\n<div>  <p> Adivina la canción de Reggaetón en el menor número de intentos.</p><p>Por cada intento fallido podrás escuchar más parte de la canción.</p></div>'),
             (i = x()),
+            (z = w("div")),
+            (z.innerHTML =
+              '<div class="mr-4 w-8 text-custom-line" style="margin-right: 0.8rem;">  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>\n<div>  <p>Pistas:</p><ul><li> <svg class="ml-0.5 text-custom-warning inline" xmlns="http://www.w3.org/2000/svg"      width="20"      height="20"      viewBox="0 0 24 24" fill="none" stroke="currentColor"      stroke-width="2"      stroke-linecap="round"      stroke-linejoin="round"    >      <line x1="18" y1="6" x2="6" y2="18"></line>      <line x1="6" y1="6" x2="18" y2="18"></line>    </svg>: Has acertado el artista. </li>    <li>    <svg      class="ml-0.5 text-custom-negative inline"      xmlns="http://www.w3.org/2000/svg"      width="20"      height="20"      viewBox="0 0 24 24"      fill="none"           stroke="currentColor"      stroke-width="2"      stroke-linecap="round"      stroke-linejoin="round"    >      <line x1="18" y1="6" x2="6" y2="18"></line>      <line x1="6" y1="6" x2="18" y2="18"></line>    </svg>: Has fallado, sigue intentándolo.  </p>  </li> <li>    <svg xmlns="http://www.w3.org/2000/svg" class="ml-0.5 text-custom-mg inline" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">      <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>    </svg>: Has saltado el intento.  </p>  </li>    </ul></div>'),
+            (y = x()),
             (o = w("div")),
             (o.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-7"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path></svg></div> \n        <div><p>Juega y comparte tu puntuación.<p></p>¡Todos los días hay una canción nueva!</p></div>'),
+              '<div class="mr-4 w-8 text-custom-line" style="margin-right: 0.8rem;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-7"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path></svg></div> \n        <div><p>Juega y comparte tu puntuación.<p></p>¡Todos los días hay una canción nueva!</p></div>'),
             (a = x()),
             (l = w("div")),
             Q(u.$$.fragment),
             M(n, "class", "flex items-center mb-6"),
             M(s, "class", "flex items-center mb-6"),
+            M(z, "class", "flex items-center mb-6"),
             M(o, "class", "flex items-center mb-6"),
             M(l, "class", "justify-center flex py-2 mt-2");
         },
@@ -4820,6 +4825,8 @@ var app = (function () {
             p(t, r),
             p(t, s),
             p(t, i),
+            p(t, z),
+            p(t, y),
             p(t, o),
             p(t, a),
             p(t, l),
