@@ -1476,3 +1476,7 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
     font-weight: bold;
     letter-spacing: 0.05em;
 }
+
+.flex-1.mx-3.text-white .text-sm {
+    color: #B5B5B5;
+}
