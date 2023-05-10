@@ -1418,3 +1418,13 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
     border-width: 1px;
     margin-bottom: 0.25rem;
 }
+
+.ml-0\.5.text-custom-mg.inline {
+    margin-top:-2px;
+}
+.ml-0\.5.text-custom-negative.inline {
+    margin-top:-2px;
+}
+.ml-0\.5.text-custom-warning.inline {
+    margin-top:-2px;
+}
