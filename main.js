@@ -1282,7 +1282,7 @@ var app = (function () {
         (t = w("img")),
           l(t.src, (n = e[1].img)) || M(t, "src", n),
           M(t, "class", "h-14 w-14 "),
-          M(t, "alt", (r = e[1].artist + " - " + e[1].title));
+          M(t, "alt", (r = e[1].title + " - " + e[1].artist));
       },
       m(e, n) {
         g(e, t, n);
@@ -1290,7 +1290,7 @@ var app = (function () {
       p(e, s) {
         2 & s && !l(t.src, (n = e[1].img)) && M(t, "src", n),
           2 & s &&
-            r !== (r = e[1].artist + " - " + e[1].title) &&
+            r !== (r = e[1].title + " - " + e[1].artist) &&
             M(t, "alt", r);
       },
       d(e) {
@@ -1321,8 +1321,8 @@ var app = (function () {
         g(e, t, o), p(t, n), g(e, r, o), g(e, s, o), p(s, i);
       },
       p(e, t) {
-        2 & t && o !== (o = e[1].artist + "") && $(n, o),
-          2 & t && a !== (a = e[1].title + "") && $(i, a);
+        2 & t && o !== (o = e[1].title + "") && $(n, o),
+          2 & t && a !== (a = e[1].artist + "") && $(i, a);
       },
       d(e) {
         e && y(t), e && y(r), e && y(s);
