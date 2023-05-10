@@ -1387,3 +1387,7 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 .absolute.bg-custom-mg.w-6 {
     background-color: transparent;
 }
+
+.flex.flex-1.justify-between.items-center {
+    margin: 0;
+}
