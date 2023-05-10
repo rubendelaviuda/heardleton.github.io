@@ -1385,6 +1385,18 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
     user-select: none;
 }
 
+@media (max-width: 285px) {
+    .font-serif.text-3xl.font-bold.flex-grow.text-center.flex-1 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 286px) and (max-width: 342px) {
+    .font-serif.text-3xl.font-bold.flex-grow.text-center.flex-1 {
+        font-size: 1.4rem;
+    }
+}
+
 .border-t.border-custom-line {
     user-select: none;
 }
