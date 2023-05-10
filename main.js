@@ -1305,8 +1305,8 @@ var app = (function () {
       r,
       s,
       i,
-      o = e[1].artist + "",
-      a = e[1].title + "";
+      o = e[1].title + "",
+      a = e[1].artist + "";
     return {
       c() {
         (t = w("p")),
