@@ -1428,3 +1428,7 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 .ml-0\.5.text-custom-warning.inline {
     margin-top:-2px;
 }
+
+.text-center.px-3 {
+    margin: 1.5rem 0px;
+}
