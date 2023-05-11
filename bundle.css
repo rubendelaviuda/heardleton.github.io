@@ -1345,6 +1345,11 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
     .p-2.flex.items-center.rounded-sm.bg-custom-positive .h-14.w-14 {
         display: none;
     }
+    
+    .no-underline {
+        height: 72px;
+        display: grid;
+    }
 }
 
 .p-2.flex.items-center.rounded-sm.bg-custom-mg .h-14.w-14 {
