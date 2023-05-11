@@ -1894,11 +1894,11 @@ var app = (function () {
     return {
       c() {
         (t = w("p")),
-          (n = _("We're really sorry. The answer is ")),
+          (n = _("Lo sentimos mucho. La respuesta era ")),
           (r = w("a")),
-          (s = _("here")),
+          (s = _("esta")),
           (o = _(
-            ", though, if you want to maintain your streak.\n                                We won't tell..."
+            ", por si quieres mantener tu racha de victorias. No se lo diremos a nadie..."
           )),
           M(r, "href", (i = e[1].url)),
           M(t, "class", "text-xs text-custom-line pt-1");
