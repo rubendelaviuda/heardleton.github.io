@@ -9127,14 +9127,14 @@ var app = (function () {
   const Cn = ue([
       "Daddy Yankee - La Despedida",
       "Polima Westcoast - Ultra Solo (ft. Pailita)",
-      "Funzo & Baby Loud - Y Cuando Pienso en Ti",
       "Nicky Jam - Travesuras",
       "Tiago PZK - Nos Comemos (ft. Ozuna)",
       "Feid - Si Te La Encuentras Por Ahi",
       "Bandido - No Me Conocen (ft. Duki, Rey y Tiago PZK)",
+      "Feid - Fumeteo",
+      "Nio Garcia - AM Remix (ft. J Balvin y Bad Bunny)",
       "Daddy Yankee - La Despedida",
       "Polima Westcoast - Ultra Solo (ft. Pailita)",
-      "Funzo & Baby Loud - Y Cuando Pienso en Ti",
       "Nicky Jam - Travesuras",
       "Tiago PZK - Nos Comemos (ft. Ozuna)",
       "Feid - Si Te La Encuentras Por Ahi",
@@ -9172,7 +9172,6 @@ var app = (function () {
       "Myke Towers - Si Se Da (ft. Farruko)",
       "Wisin & Yandel - Noche De Sexo (ft. Aventura)",
       "Lunay - A Solas (ft. Lyanno)",
-      "Funzo & Baby Loud - Peca2",
       "J Balvin - Agua",
       "Feid - Si Tu Supieras",
       "Zion & Lennox - Yo voy (ft. Daddy Yankee)",
@@ -9305,7 +9304,6 @@ var app = (function () {
       "Don Omar - Guaya Guaya",
       "Mora - 512",
       "Don Omar - Dale Don Dale",
-      "Funzo & Baby Loud - Luces De Neon",
       "Lunay - La Cama (ft. Myke Towers)",
       "Bad Bunny - La Zona",
       "Don Omar - Conteo",
@@ -9539,12 +9537,16 @@ var app = (function () {
             url: "https://soundcloud.com/polimawestcoast/ultra-solo",
           },
           {
-            answer: "Funzo & Baby Loud - Y Cuando Pienso en Ti",
-            url: "https://soundcloud.com/funzobabyloud-music/y-cuando-pienso-en-ti",
-          },
-          {
             answer: "Nicky Jam - Travesuras",
             url: "https://soundcloud.com/nickyjamcol/travesuras-1",
+          },
+          {
+            answer: "Feid - Fumeteo",
+            url: "https://soundcloud.com/feid_oficial/fumeteo",
+          },
+          {
+            answer: "Nio Garcia - AM Remix (ft. J Balvin y Bad Bunny)",
+            url: "https://soundcloud.com/geromusik/nio-garcia-j-balvin-bad-bunny",
           },
           {
             answer: "Tiago PZK - Nos Comemos (ft. Ozuna)",
@@ -9566,10 +9568,6 @@ var app = (function () {
           {
             answer: "Polima Westcoast - Ultra Solo (ft. Pailita)",
             url: "https://soundcloud.com/polimawestcoast/ultra-solo",
-          },
-          {
-            answer: "Funzo & Baby Loud - Y Cuando Pienso en Ti",
-            url: "https://soundcloud.com/funzobabyloud-music/y-cuando-pienso-en-ti",
           },
           {
             answer: "Nicky Jam - Travesuras",
@@ -9724,10 +9722,6 @@ var app = (function () {
           {
             answer: "Lunay - A Solas (ft. Lyanno)",
             url: "https://soundcloud.com/lunaypr/asolas",
-          },
-          {
-            answer: "Funzo & Baby Loud - Peca2",
-            url: "https://soundcloud.com/funzobabyloud/peca2",
           },
           {
             answer: "J Balvin - Agua",
@@ -10260,10 +10254,6 @@ var app = (function () {
           {
             answer: "Don Omar - Dale Don Dale",
             url: "https://soundcloud.com/donomarpr/dale-don-dale-album-version-1",
-          },
-          {
-            url: "https://soundcloud.com/funzobabyloud/luces-de-neon",
-            answer: "Funzo & Baby Loud - Luces De Neon",
           },
           {
             url: "https://soundcloud.com/lunaypr/la-cama",
