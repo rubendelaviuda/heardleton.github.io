@@ -4267,10 +4267,9 @@ var app = (function () {
             M(T, "class", "bg-custom-highlight py-3 pb-5 mx-3 rounded-t-md");
         },
         m(e, y) {
-          g(e, t, y), p(t, n), p(n, r), p(t, s), p(t, i);
+          g(e, t, y), p(t, n), p(n, r), p(t, s), p(t, a), p(t, i);
           for (let e = 0; e < N.length; e += 1) N[e].m(i, null);
           p(t, o),
-            p(t, a),
             W.m(a, null),
             p(t, l),
             R && R.m(t, null),
