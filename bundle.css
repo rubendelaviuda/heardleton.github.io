@@ -1510,3 +1510,11 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 .text-center.px-3 .py-1 {
     color: var(--color-line);
 }
+
+.flex.flex-col.justify-center.items-center.mb-6.mx-3 .text-center.text-custom-line.text-sm {
+    color: #FFF;
+}
+
+.tracking-widest.text-lg {
+    color: var(--color-line)
+}
