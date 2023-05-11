@@ -1490,5 +1490,13 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 }
 
 .flex-1.mx-3.text-white .text-sm {
-    color: #B5B5B5;
+    color: #B7B7B7;
+}
+
+.text-center.px-3 .text-custom-line {
+    color: #FFF
+}
+
+.text-center.px-3 .py-1 {
+    color: var(--color-line);
 }
