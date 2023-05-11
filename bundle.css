@@ -887,7 +887,7 @@ video {
 }
 
 .tracking-widest {
-    letter-spacing: 0.05em
+    letter-spacing: 0.02em
 }
 
 .text-white {
@@ -1496,7 +1496,7 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
     font-size: 0.75em;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
 }
 
 .flex-1.mx-3.text-white .text-sm {
