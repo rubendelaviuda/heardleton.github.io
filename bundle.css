@@ -1341,6 +1341,12 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
     border-radius: 0.5em
 }
 
+@media (max-width: 278px) {
+    .p-2.flex.items-center.rounded-sm.bg-custom-positive .h-14.w-14 {
+        display: none:
+    }
+}
+
 .p-2.flex.items-center.rounded-sm.bg-custom-mg .h-14.w-14 {
     border-radius: 0.5em;
 }
@@ -1383,6 +1389,12 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 
 .font-serif.text-3xl.font-bold.flex-grow.text-center.flex-1 {
     user-select: none;
+}
+
+@media (max-width: 278px) {
+    .font-serif.text-3xl.font-bold.flex-grow.text-center.flex-1 {
+        display: none;
+    }
 }
 
 @media (max-width: 285px) {
@@ -1452,7 +1464,7 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 }
 
 @media (max-width: 279px) {
-  .text-center.flex.justify-center sfvg {
+  .text-center.flex.justify-center svg {
     display: none
   }
   .flex-1.mx-3.text-white {
