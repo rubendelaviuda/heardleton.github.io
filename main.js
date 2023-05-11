@@ -985,11 +985,11 @@ var app = (function () {
             n,
             "title",
             (d =
-              "Listen to " +
+              "Escucha " +
               e[1].artist +
               " - " +
               e[1].title +
-              " on SoundCloud")
+              " en SoundCloud")
           ),
           M(n, "class", "no-underline"),
           M(t, "class", "p-3 pb-0 flex-col items-evenly");
@@ -1024,11 +1024,11 @@ var app = (function () {
           2 & t &&
             d !==
               (d =
-                "Listen to " +
+                "Escucha " +
                 e[1].artist +
                 " - " +
                 e[1].title +
-                " on SoundCloud") &&
+                " en SoundCloud") &&
             M(n, "title", d);
       },
       d(e) {
@@ -1693,7 +1693,7 @@ var app = (function () {
           (a = w("div")),
           (l = w("p")),
           (l.textContent =
-            "Oh no! Seems like today's track is unavailable on\n                            SoundCloud in your location"),
+            "¡Oh no! Parece que la canción de hoy no está disponible en tu localización."),
           (u = x()),
           c && c.c(),
           M(i, "class", "mr-3"),
