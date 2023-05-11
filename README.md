@@ -1,6 +1,6 @@
-#Heardletón
+# Heardletón
 
-##Qué es
+## Qué es
 Heardletón es un juego online que consiste en adivinar una canción de Reggaetón al día escuchando únicamente los primeros segundos de la canción.
 
 La gracia está en intentar lograr adivinarla en el menor número de intentos posibles. Por cada intento fallido se te proporcionarán unos segundos más de la canción.
