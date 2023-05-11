@@ -13,9 +13,9 @@ En 2022 un desarrollador lanzó una página llamada heardle.app, un juego que im
 
 La página se hizo tan famosa que salieron varias versiones del juego. Por ejemplo, heardlesp.app, que es solo con canciones en español.
 
-Heardletón está inspirada en heardle-reggaeton.jbonet.xyz, una página que dejó de dar servicio en septiembre de 2022. En 2023 el Heardle original también dejó de dar servicio.
+Heardletón está inspirada en heardle-reggaeton.jbonet.xyz, una página que permitía jugar a Heardle pero solo con canciones de Reggaetón. Sin embargo, esta web dejó de dar servicio en septiembre de 2022. En 2023 el Heardle original también dejó de dar servicio.
 
-Por ese motivo he decidido recrear mi propia versión del juego, ya que nadie ha vuelto a hacer una versión de Heardle.
+Por este último motivo he decidido recrear mi propia versión del juego, ya que nadie ha vuelto a hacer una versión de Heardle.
 
 ## Cómo lo he desarrollado
 
