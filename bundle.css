@@ -1461,20 +1461,10 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
   }
 }
 
-@media (min-width: 279px) and (max-width: 342px) {
+@media (min-width: 279px) and (max-width: 380px) {
   .text-center.flex.justify-center svg {
     display: none
   }
-}
-
-@media (min-width: 342px) and (max-width: 380px) {
-  .flex-1.mx-3.text-white {
-    font-size: 12px;
-  }
-  p.text-sm {
-    font-size: 10px;
-  }
-    
 }
 
 .kofitext.svelte-1d3p4dy {
