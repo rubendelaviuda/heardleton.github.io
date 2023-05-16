@@ -1344,6 +1344,7 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 
 .px-2.py-2.uppercase.tracking-widest.border-none.flex.items-center.font-semibold.text-sm.svelte-1r54uzk.bg-custom-positive {
     padding: 0.5rem 1.1rem;
+    
 }
 
 .px-2.py-2.uppercase.tracking-widest.bg-custom-mg.border-none.flex.items-center.font-semibold.text-sm.svelte-1r54uzk {
@@ -1500,4 +1501,16 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 
 .bg-custom-bg.border.border-custom-mg.p-6 .flex.justify-center.m-3 {
     display: none;
+}
+
+.bg-custom-bg.border.border-custom-mg.p-6 .pt-6 {
+    margin-bottom: 0.93rem;
+}
+
+.bg-custom-bg.border.border-custom-mg.p-6 .px-2.py-2.uppercase.tracking-widest.border-none.flex.items-center.font-semibold.text-sm.svelte-1r54uzk.bg-custom-positive {
+    margin-bottom: 0.47rem;
+}
+
+.flex.justify-between.text-center.w-full.py-3.pt-0 {
+    margin-bottom: -1px;
 }
