@@ -1497,3 +1497,7 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 .text-center.p-3.flex.flex-col.items-center.text-sm.text-custom-line {
     user-select: none;
 }
+
+.bg-custom-bg.border.border-custom-mg.p-6 .flex.justify-center.m-3 {
+    display: none;
+}
