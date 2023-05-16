@@ -1493,3 +1493,7 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 .tracking-widest.text-lg {
     color: #FFF;
 }
+
+.text-center.p-3.flex.flex-col.items-center.text-sm.text-custom-line {
+    user-select: none;
+}
