@@ -1379,13 +1379,13 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
     user-select: none;
 }
 
-@media (max-width: 285px) {
+@media (max-width: 311px) {
     .font-serif.text-3xl.font-bold.flex-grow.text-center.flex-1 {
         font-size: 1.1rem;
     }
 }
 
-@media (min-width: 286px) and (max-width: 342px) {
+@media (min-width: 312px) and (max-width: 355px) {
     .font-serif.text-3xl.font-bold.flex-grow.text-center.flex-1 {
         font-size: 1.4rem;
     }
