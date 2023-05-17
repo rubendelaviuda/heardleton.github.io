@@ -1431,13 +1431,13 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
     margin: 1.5rem 0px;
 }
 
-@media (max-width: 379px) {
+@media (max-width: 399px) {
     .kofitext.svelte-1d3p4dy img.kofiimg.svelte-1d3p4dy {
         display: none;
     }
 }
 
-@media (max-width: 279px) {
+@media (max-width: 284px) {
   .text-center.flex.justify-center svg {
     display: none
   }
@@ -1462,7 +1462,7 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
   }
 }
 
-@media (min-width: 279px) and (max-width: 380px) {
+@media (min-width: 284px) and (max-width: 400px) {
   .text-center.flex.justify-center svg {
     display: none
   }
