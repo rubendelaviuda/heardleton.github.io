@@ -1345,13 +1345,11 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 
 .px-2.py-2.uppercase.tracking-widest.border-none.flex.items-center.font-semibold.text-sm.svelte-1r54uzk.bg-custom-positive {
     padding: 0.5rem 1.1rem;
-    white-space: nowrap;
     
 }
 
 .px-2.py-2.uppercase.tracking-widest.bg-custom-mg.border-none.flex.items-center.font-semibold.text-sm.svelte-1r54uzk {
     padding: 0.5rem 1.1rem;
-    white-space: nowrap;
 }
 
 .kofi-button.py-2.px-3.rounded-lg.items-center.flex.svelte-1d3p4dy {
@@ -1380,7 +1378,6 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 
 .font-serif.text-3xl.font-bold.flex-grow.text-center.flex-1 {
     user-select: none;
-    white-space: nowrap;
 }
 
 @media (max-width: 312px) {
@@ -1517,12 +1514,4 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 
 .flex.justify-between.text-center.w-full.py-3.pt-0 {
     margin-bottom: -1px;
-}
-
-.border-t.border-custom-line .max-w-screen-sm.w-full.mx-auto.flex-col .px-3 .flex.justify-between.items-center {
-    white-space: nowrap;
-}
-
-.text-sm.text-center.uppercase.text-custom-line.font-semibold.tracking-widest {
-    white-space: nowrap;
 }
