@@ -1522,3 +1522,7 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
 .border-t.border-custom-line .max-w-screen-sm.w-full.mx-auto.flex-col .px-3 .flex.justify-between.items-center {
     white-space: nowrap;
 }
+
+.text-sm.text-center.uppercase.text-custom-line.font-semibold.tracking-widest {
+    white-space: nowrap;
+}
