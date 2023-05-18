@@ -9314,7 +9314,7 @@ var app = (function () {
       "Nicky Jam - En La Cama (ft. Daddy Yankee)",
       "Nio Garcia - La Jeepeta Remix (ft. Anuel AA, Myke Towers, Brray y Juanka)",
       "Daddy Yankee - Dura",
-      "Tekashi 69 - Bebe (ft. Anuel AA)",
+      "Tekashi 6ix9ine - Bebe (ft. Anuel AA)",
       "Funzo & Baby Loud - Donde Te Espero",
       "Jhayco - En La De Ella (ft. Sech y Feid)",
       "Ozuna - Quiero Repetir (ft. J Balvin)",
@@ -9468,7 +9468,7 @@ var app = (function () {
       "J Balvin - Amarillo",
       "Wisin - Escapate Conmigo (ft. Ozuna)",
       "Tego Calderon - Metele Sazon",
-      "Tekashi 69 - Mala (ft. Anuel AA)",
+      "Tekashi 6ix9ine - Mala (ft. Anuel AA)",
       "Ozuna - Vaina Loca (ft. Manuel Turizo)",
       "Rauw Alejandro - Dile A El",
       "Lunay - Aventura (ft. Anuel AA y Ozuna)",
@@ -10296,7 +10296,7 @@ var app = (function () {
             url: "https://soundcloud.com/daddy-yankee-official/dura",
           },
           {
-            answer: "Tekashi 69 - Bebe (ft. Anuel AA)",
+            answer: "Tekashi 6ix9ine - Bebe (ft. Anuel AA)",
             url: "https://soundcloud.com/scumgang6ix9ine/bebe-ft-anuel-aa",
           },
           {
@@ -10916,7 +10916,7 @@ var app = (function () {
           },
           {
             url: "https://soundcloud.com/scumgang6ix9ine/mala-ft-anuel-aa",
-            answer: "Tekashi 69 - Mala (ft. Anuel AA)",
+            answer: "Tekashi 6ix9ine - Mala (ft. Anuel AA)",
           },
           {
             answer: "Ozuna - Vaina Loca (ft. Manuel Turizo)",
