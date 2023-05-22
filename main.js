@@ -9323,7 +9323,6 @@ var app = (function () {
       "Nicky Jam - Chambonea",
       "Quevedo - Punto G",
       "Bad Bunny - Party (ft. Rauw Alejandro)",
-      "Ozuna - Si Tu Marido No Te Quiere",
       "Darell - Otro Trago (ft. Darell)",
       "Tiago PZK - Traductor (ft. Myke Towers)",
       "J Balvin - Azul",
@@ -9480,7 +9479,7 @@ var app = (function () {
       "Dalex - Hola Remix (ft. Lenny Tavarez, Chencho Corleone y Juhn)",
       "J Balvin - Blanco",
       "Feid - Prohibidox",
-      "Ozuna - Si tu marido no te quiere",
+      "Ozuna - Si Tu Marido No Te Quiere",
       "CNCO - Hey DJ (ft. Yandel)",
       "Robledo - Dime Bbsita",
       "J Balvin - Negro",
@@ -10333,10 +10332,6 @@ var app = (function () {
             url: "https://soundcloud.com/badbunny15/bad-bunny-rauw-alejandro-party",
           },
           {
-            answer: "Ozuna - Si Tu Marido No Te Quiere",
-            url: "https://soundcloud.com/ozunapr/si-tu-marido-no-te-quiere",
-          },
-          {
             answer: "Darell - Otro Trago (ft. Darell)",
             url: "https://soundcloud.com/sech-music/otro-trago-feat-darell",
           },
@@ -10965,7 +10960,7 @@ var app = (function () {
             url: "https://soundcloud.com/feid_oficial/prohibidox",
           },
           {
-            answer: "Ozuna - Si tu marido no te quiere",
+            answer: "Ozuna - Si Tu Marido No Te Quiere",
             url: "https://soundcloud.com/ozunapr/si-tu-marido-no-te-quiere",
           },
           {
