@@ -9146,7 +9146,7 @@ var app = (function () {
       "Khea - Te Necesito (ft. Maria Becerra)",
       "Feid - Porfa (ft. Justin Quiles)",
       "Tiago PZK - Salimo De Noche (ft. Trueno)",
-      "Ozuna - Si Tu Marido No Te Quiere",
+      "Ozuna - Si Tu Marido No Te Quiere Remix (ft. Arcangel & Farruko)",
       "Ozuna - Luz Apaga (ft. Lunay, Rauw Alejandro y Lyanno)",
       "Bad Bunny - Que Malo (ft. Ñengo Flow)",
       "Rvssian - Ponle (ft. Farruko, J Balvin)",
@@ -9323,6 +9323,7 @@ var app = (function () {
       "Nicky Jam - Chambonea",
       "Quevedo - Punto G",
       "Bad Bunny - Party (ft. Rauw Alejandro)",
+      "Ozuna - Si Tu Marido No Te Quiere",
       "Darell - Otro Trago (ft. Darell)",
       "Tiago PZK - Traductor (ft. Myke Towers)",
       "J Balvin - Azul",
@@ -9615,7 +9616,7 @@ var app = (function () {
           },
           {
             url: "https://soundcloud.com/ozunapr/si-tu-marido-no-te-quiere-remix",
-            answer: "Ozuna - Si Tu Marido No Te Quiere",
+            answer: "Ozuna - Si Tu Marido No Te Quiere Remix (ft. Arcangel & Farruko)",
           },
           {
             answer: "Ozuna - Luz Apaga (ft. Lunay, Rauw Alejandro y Lyanno)",
@@ -10330,6 +10331,10 @@ var app = (function () {
           {
             answer: "Bad Bunny - Party (ft. Rauw Alejandro)",
             url: "https://soundcloud.com/badbunny15/bad-bunny-rauw-alejandro-party",
+          },
+          {
+            answer: "Ozuna - Si Tu Marido No Te Quiere",
+            url: "https://soundcloud.com/ozunapr/si-tu-marido-no-te-quiere",
           },
           {
             answer: "Darell - Otro Trago (ft. Darell)",
